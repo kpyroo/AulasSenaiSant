@@ -14,3 +14,8 @@ Aula2 - HTML Básico
 - Links ✅
 - Imagens ✅
 - Projeto Convite de Aniversário ✅
+
+Aula3 - HTML Intermediário
+- Caminhos de Arquivos ✅
+- Páginas Web ✅
+- Projeto Portfólio HTML ✅
