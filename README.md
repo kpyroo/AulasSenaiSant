@@ -19,3 +19,8 @@ Aula3 - HTML Intermediário
 - Caminhos de Arquivos ✅
 - Páginas Web ✅
 - Projeto Portfólio HTML ✅
+
+Aula4 - CSS Básico
+- Adicionando CSS
+- Seletores
+- Projeto Color + Vocab
