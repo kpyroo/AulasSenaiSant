@@ -1,3 +1,19 @@
-.titulo {
-    position: center
+li {
+    color: red;
+}
+
+.li2 {
+    color: darkblue;
+}
+
+#li3 {
+    color:green;
+}
+
+li[li4] {
+    color: blue;
+}
+
+*[li5]{
+    color: black;
 }

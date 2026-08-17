@@ -21,6 +21,6 @@ Aula3 - HTML Intermediário
 - Projeto Portfólio HTML ✅
 
 Aula4 - CSS Básico
-- Adicionando CSS
-- Seletores
-- Projeto Color + Vocab
+- Adicionando CSS ✅
+- Seletores ✅
+- Projeto Color + Vocab ✅
