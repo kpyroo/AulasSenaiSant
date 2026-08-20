@@ -24,3 +24,9 @@ Aula4 - CSS Básico
 - Adicionando CSS ✅
 - Seletores ✅
 - Projeto Color + Vocab ✅
+
+Aula5 - CSS Intermediário I
+- Seletores e Cores ✅
+- Tipografia e Alinhamento
+- Box Model
+- Práticas FInais e Listas
