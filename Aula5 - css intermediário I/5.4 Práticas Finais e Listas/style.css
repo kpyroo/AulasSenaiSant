@@ -13,12 +13,23 @@ div {
 
 .fundocartao {
     background-color: blueviolet;
-    height: 300px;
-    width: 600px;
+    height: 600px;
+    width: 300px;
     margin: 20px;
 }
 
+
 img {
     height: 250px;
-    margin: 25px;
+    margin: 40px;
+    border-radius: 30px;
+
+}
+
+.texto {
+    text-align: center;
+}
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

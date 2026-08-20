@@ -29,6 +29,6 @@ Aula4 - CSS Básico
 
 Aula5 - CSS Intermediário I
 - Seletores e Cores ✅
-- Tipografia e Alinhamento
-- Box Model
-- Práticas FInais e Listas
+- Tipografia e Alinhamento ✅
+- Box Model ✅
+- Práticas FInais e Listas ✅
