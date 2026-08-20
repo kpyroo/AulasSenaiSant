@@ -6,8 +6,12 @@ p {
     font-size: 24px;
 }
 
-p[lorem] {
+.bold {
     font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
 }
 
 h1 {

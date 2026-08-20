@@ -1,0 +1,24 @@
+ul {
+    list-style-type: none;
+}
+
+button:hover {
+    background-color: rgb(162, 162, 255);
+}
+
+div {
+    text-shadow: 20px;
+    box-shadow: rgb(13, 255, 5);
+}
+
+.fundocartao {
+    background-color: blueviolet;
+    height: 300px;
+    width: 600px;
+    margin: 20px;
+}
+
+img {
+    height: 250px;
+    margin: 25px;
+}

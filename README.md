@@ -1,6 +1,8 @@
 # AulasSenaiSant
 repo das atividades que eu faço
 
+meu repositório virou utilidade pública lol
+
 Aula1 - Sintaxe HTML
 - Sintaxe HTML ✅
 - Meu primeiro código ✅
