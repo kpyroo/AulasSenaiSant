@@ -32,3 +32,6 @@ Aula5 - CSS Intermediário I
 - Tipografia e Alinhamento ✅
 - Box Model ✅
 - Práticas FInais e Listas ✅
+
+Aula6 - CSS Intermediário II
+- Criação e estilização de formulário ✅
