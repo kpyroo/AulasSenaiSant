@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula6 - css intermediário II</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro de Usuário</h1>
+        <form>
+            <div class="nome">
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+            </div>
+            
+            <div class="emal">
+                <label for="email">E-mail:</label>
+                <input type="text" id="email" name="email" required placeholder="exemplo@exemplo.com">
+            </div>
+            
+            <div class="senha">
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" placeholder="Digite uma senha forte">
+            </div>
+
+            <div class="data">
+                <label for="data">Data de nascimento</label>
+                <input type="date" id="data" name="data">
+            </div>
+
+            <div class="genero">
+                <p>Gênero:</p>
+                <input type="radio" id="masculino" name="sexo" value="masculino" class="genero">
+                <label class="genero" for="masculino">Masculino</label>
+                <input type="radio" id="feminino" name="sexo" value="feminino" class="genero">
+                <label class="genero" for="feminino">Feminino</label>
+                <input type="radio" id="outro" name="sexo" value="outro" class="genero">
+                <label class="genero" for="outro">Outro</label>
+            </div>
+
+            <div class="cidade">
+                <label for="cidade">Cidade:</label>
+                <select id="cidade" name="cidade">
+                    <option value="">Selecione uma cidade</option>
+                    <option value="curitiba">Curitiba</option>
+                    <option value="londrina">Londrina</option>
+                    <option value="maringa">Maringá</option>
+                    <option value="pontagrossa">Ponta Grossa</option>
+                </select>
+            </div>
+            
+            <div class="telefone">
+                <label for="telefone">Telefone:</label>
+                <input type="telefone" id="telefone" name="telefone" placeholder="(00) 00000-0000" required>
+            </div>
+
+            <div class="termos">
+                <input class="termos" type="checkbox" id="termos" name="termos">
+                <label class="termos" for="termos">Aceito os termos de uso</label>
+            </div>
+
+
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+</body>
+</html>

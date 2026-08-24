@@ -1,0 +1,71 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #36c6ff;
+    background: linear-gradient(90deg,rgba(54, 198, 255, 1) 0%, rgba(0, 247, 206, 1) 100%);
+}
+
+.container {
+    width: 400px;
+    height: 50px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 50px auto;
+    box-shadow: 10px 12px 100px rgba(0, 0, 0, 0.507);
+}
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    
+
+}   
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+label {
+    font-weight: bold;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    font-weight: bolder;
+    border-color: chartreuse;
+    border: black;
+
+    opacity: 0.8; /* é como se fosse uma classe separada para quando algum evento acontece, como o hover, o hover só é aplicado quando o mouse é passado em cima da tag */
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    border: 2px solid;
+}
+
+.genero {
+    width: auto;
+    font-weight: 100;
+}
+p {
+    font-weight: bold;
+}
+
+.termos {
+    width: auto;
+    font-weight: 100;
+    font-size: 15px;
+    margin: 4px;
+
+}
