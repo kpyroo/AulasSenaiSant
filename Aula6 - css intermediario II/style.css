@@ -38,13 +38,12 @@ button {
     border: none;
     border-radius: 6px;
     cursor: pointer;
+    background-color: aquamarine;
 }
 
 button:hover {
-    font-weight: bolder;
-    border-color: chartreuse;
-    border: black;
-
+    font-weight: bold;
+    background-color: rgb(147, 255, 219);
     opacity: 0.8; /* é como se fosse uma classe separada para quando algum evento acontece, como o hover, o hover só é aplicado quando o mouse é passado em cima da tag */
 }
 
