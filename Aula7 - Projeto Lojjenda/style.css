@@ -1,0 +1,538 @@
+@font-face {
+    font-family: 'cyberjunkies';
+    src: url(./assets/fonts/Cyberjunkies.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000;
+}
+
+/* =========================
+   CABEÇALHO
+========================= */
+
+.topo {
+    height: 87px;
+    background: #7bdc4f;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 3%;
+}
+
+/* LOGO */
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    color: white;
+    font-size: 43px;
+    font-weight: 800;
+}
+
+.logo-sacola {
+    font-size: 50px;
+    margin-top: 15px;
+}
+
+.logo span {
+    font-size: 1em;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'cyberjunkies';
+    font-kerning: normal;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+}
+
+/* PESQUISA */
+
+.pesquisa {
+    width: 390px;
+    height: 58px;
+
+    border: 7px solid white;
+    border-radius: 40px;
+
+    display: flex;
+    align-items: center;
+
+    overflow: hidden;
+}
+
+.pesquisa input {
+    flex: 1;
+
+    height: 100%;
+    border: none;
+    outline: none;
+
+    background: transparent;
+
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+
+    padding-left: 20px;
+}
+
+.pesquisa input::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+.pesquisa button {
+    width: 55px;
+    height: 55px;
+
+    border: none;
+    background: transparent;
+
+    color: white;
+
+    font-size: 42px;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ÍCONES */
+
+.icones {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+
+    color: white;
+}
+
+.carrinho {
+    font-size: 38px;
+    margin-top: 15px;
+}
+
+.lista {
+    font-size: 42px;
+    margin-top: 8px;
+    padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: white;
+    color: #65ce43;
+    border-radius: 15px;
+}
+
+.usuario {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+
+    font-size: 0;
+
+    position: relative;
+}
+
+
+/* =========================
+   MENU
+========================= */
+
+.menu {
+    height: 48px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 0 3%;
+
+    background: white;
+}
+
+.menu a {
+    text-decoration: none;
+
+    color: #050505;
+
+    font-size: 24px;
+    font-weight: 700;
+
+    transition: 0.2s;
+}
+
+.menu a:hover {
+    color: #65ce43;
+}
+
+.menu .ativo {
+    color: #65ce43;
+    text-decoration: underline;
+}
+
+/* =========================
+   BANNER
+========================= */
+
+.banner {
+    height: 350px;
+
+    background: #e5ffd9;
+
+    display: flex;
+    align-items: center;
+
+    position: relative;
+    overflow: hidden;
+
+    padding-left: 5%;
+}
+
+/* SACOLA */
+
+.sacola-banner {
+    width: 200px;
+    height: 200px;
+
+    color: #54c96a;
+
+    font-size: 130px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* TEXTO */
+
+.texto-banner {
+    margin-left: 45px;
+    z-index: 2;
+}
+
+.texto-banner h1 {
+    font-size: 59px;
+    line-height: 1.4;
+
+    font-weight: 800;
+
+    white-space: nowrap;
+}
+
+.texto-banner span {
+    color: #72d84c;
+    font-style: normal;
+    font-family: 'cyberjunkies';
+    font-kerning: normal;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+}
+
+/* IMAGENS DO BANNER */
+
+.imagens-banner {
+    position: absolute;
+
+    right: -50px;
+    top: 20px;
+
+    display: flex;
+    gap: 20px;
+
+    transform: rotate(-1deg);
+}
+
+.produto-banner {
+    width: 225px;
+    height: 225px;
+
+    background: white;
+
+    padding: 5px;
+
+    position: relative;
+
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+.produto-banner img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+.produto-banner strong {
+    position: absolute;
+
+    bottom: 5px;
+    left: 12px;
+
+    color: white;
+
+    font-size: 19px;
+
+    text-shadow: 1px 1px 4px black;
+}
+
+.produto-1 {
+    transform: rotate(-15deg);
+}
+
+.produto-2 {
+    transform: rotate(14deg);
+    margin-top: 20px;
+}
+
+/* =========================
+   PRODUTOS
+========================= */
+
+.produtos {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    padding: 18px 4%;
+}
+
+/* CATEGORIA */
+
+.categoria {
+    text-align: center;
+
+    padding: 0 25px;
+}
+
+.categoria:first-child {
+    border-right: 4px solid #e5e5e5;
+}
+
+.categoria h2 {
+    font-size: 34px;
+
+    font-weight: 500;
+
+    margin-bottom: 5px;
+}
+
+/* ETIQUETA VERDE */
+
+.etiqueta {
+    display: inline-block;
+
+    background: #43bd6b;
+
+    color: white;
+
+    padding: 3px 10px;
+
+    border-radius: 8px;
+
+    font-size: 20px;
+    font-weight: 500;
+
+    margin-bottom: 50px;
+}
+
+/* CARDS */
+
+.cards {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 24px;
+}
+
+.card {
+    text-align: left;
+
+    overflow: hidden;
+
+    border-radius: 13px;
+
+    background: #fafafa;
+
+    transition: 0.25s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+.card img {
+    width: 100%;
+    height: 190px;
+
+    object-fit: cover;
+
+    display: block;
+}
+
+.card h3 {
+    font-size: 17px;
+
+    padding: 10px 12px 0;
+}
+
+.card p {
+    color: #43bd6b;
+
+    font-size: 18px;
+    font-weight: 700;
+
+    padding: 3px 12px 12px;
+}
+
+/* =========================
+   RESPONSIVIDADE
+========================= */
+
+@media (max-width: 1100px) {
+
+    .logo {
+        font-size: 32px;
+    }
+
+    .pesquisa {
+        width: 300px;
+    }
+
+    .menu a {
+        font-size: 18px;
+    }
+
+    .texto-banner h1 {
+        font-size: 42px;
+    }
+
+    .sacola-banner {
+        font-size: 100px;
+    }
+
+    .imagens-banner {
+        opacity: 0.5;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .topo {
+        height: auto;
+
+        padding: 15px;
+
+        flex-wrap: wrap;
+
+        gap: 15px;
+    }
+
+    .logo {
+        font-size: 28px;
+    }
+
+    .pesquisa {
+        order: 3;
+
+        width: 100%;
+    }
+
+    .icones {
+        gap: 10px;
+    }
+
+    .menu {
+        height: auto;
+
+        padding: 12px;
+
+        flex-wrap: wrap;
+
+        gap: 15px;
+    }
+
+    .menu a {
+        font-size: 16px;
+    }
+
+    .banner {
+        height: 300px;
+
+        padding: 20px;
+    }
+
+    .sacola-banner {
+        display: none;
+    }
+
+    .texto-banner {
+        margin-left: 0;
+    }
+
+    .texto-banner h1 {
+        font-size: 36px;
+
+        white-space: normal;
+    }
+
+    .imagens-banner {
+        display: none;
+    }
+
+    .produtos {
+        grid-template-columns: 1fr;
+
+        gap: 40px;
+    }
+
+    .categoria:first-child {
+        border-right: none;
+        border-bottom: 3px solid #e5e5e5;
+
+        padding-bottom: 40px;
+    }
+
+    .cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+
+    .categoria h2 {
+        font-size: 26px;
+    }
+
+    .etiqueta {
+        font-size: 15px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .card img {
+        height: 220px;
+    }
+
+    .texto-banner h1 {
+        font-size: 30px;
+    }
+}

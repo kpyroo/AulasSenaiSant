@@ -35,3 +35,6 @@ Aula5 - CSS Intermediário I
 
 Aula6 - CSS Intermediário II
 - Criação e estilização de formulário ✅
+
+Aula7 - Projeto LLojenda
+- ✅
