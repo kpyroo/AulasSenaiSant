@@ -9,12 +9,12 @@
     <h1>Calcular IMC</h1>
     <form method="GET">
         <label>Qual é seu peso? (em KG)</label>
-        <input type="number" name="peso" required>
+        <br><input type="number" name="peso" required></br>
 
         <br></br>
 
         <label>Qual é sua altura? (em metros)</label>
-        <input type="float" name="altura" required>
+        <br><input type="float" name="altura" required></br>
 
         <br></br>
 
