@@ -26,8 +26,22 @@
             $peso = $_GET["peso"];
             $altura = $_GET["altura"];
             $imc = round($peso / ($altura * $altura), 2);
-            
-        echo "<h2>Seu IMC é $imc</h2>";
+
+            if ($peso > 0 && $altura > 0) {
+                echo "<h2>Seu IMC é $imc</h2>"; 
+                    if ($imc < 18.5) {
+                    echo "<h2 style='color: aqua;'>Abaixo do peso</h2>";
+                } elseif ($imc < 25) {  
+                    echo "<h2 style='color: green;'>Normal</h2>";
+                } elseif ($imc < 30) {  
+                    echo "<h2 style='color: yellow;'>Sobrepeso</h2>";
+                } else {
+                    echo "<h2 style='color: red;'>Bom dia Enzo Bonete!</h2>";
+                }
+            }
+            else {
+                echo "<h2 style='color: red;'>Digite valores maiores que 0!</h2>";
+                }
         }
     ?>
 </body>
