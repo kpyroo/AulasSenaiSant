@@ -38,3 +38,11 @@ Aula6 - CSS Intermediário II
 
 Aula7 - Projeto LLojenda
 - ✅
+
+Aula8 - PHP Básico
+- aula1.php ✅
+
+Aula9 - PHP + HTML
+- exec1.php ✅
+- exec2.php ✅
+- exec3.php ✅
