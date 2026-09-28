@@ -52,6 +52,6 @@ Aula10 - PHP Operadores
 - 10.2 - Exercício 2 ✅
 - 10.3 - Exercício 3 ➖
 
-Aula10 - PHP Fixação
+Aula11 - PHP Fixação
 - 11.1 - Exercício 1 ✅
 - 11.2 - Exercício 2 ✅
