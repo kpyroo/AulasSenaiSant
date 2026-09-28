@@ -46,3 +46,12 @@ Aula9 - PHP + HTML
 - exec1.php ✅
 - exec2.php ✅
 - exec3.php ✅
+
+Aula10 - PHP Operadores
+- 10.1 - Exercício 1 ✅
+- 10.2 - Exercício 2 ✅
+- 10.3 - Exercício 3 ➖
+
+Aula10 - PHP Fixação
+- 11.1 - Exercício 1 ✅
+- 11.2 - Exercício 2 ✅
