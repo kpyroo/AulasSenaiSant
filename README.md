@@ -55,3 +55,12 @@ Aula10 - PHP Operadores
 Aula11 - PHP Fixação
 - 11.1 - Exercício 1 ✅
 - 11.2 - Exercício 2 ✅
+
+Aula12 - PHP Estrutura de controle
+- 12.1 - Exercícios 1-5 ✅
+- 12.2 - Exercício 6 ✅
+- 12.3 - Exercício 7 ✅
+- 12.4 - Exercício 8 ✅
+- 12.5 - Exercício 9 ✅
+- 12.6 - Exercício 10 ✅
+- 12.7 - Desafio ✅

@@ -1,0 +1,5 @@
+1) condições são para tomar decisões e executar diferentes partes de código
+2) if: se uma condição for verdadeira, ele executa o código, else: se não ele executa outro
+3) switch foi feito para tarefas mais simples, já o if você pode colocar condicionais e é mais complexo
+4) em laços de repetição
+5) repetir uma instrução até uma condicional for verdadeira (ou falsa)
