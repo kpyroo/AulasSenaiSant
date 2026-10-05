@@ -1,0 +1,6 @@
+1. Array é uma lista de itens ou números que guarda informações, como uma lista de mercado
+2. vetor é uma lista simples de elementos organizados em uma única dimensão, enquanto uma matriz é um array de arrays, ou seja, um vetor cujos elementos também são vetores
+3. índice é o número onde fica a informação na matriz, como se fosse um número de chamada, quando você quer aquela informação específica você usa o índice dela, índices começam por 0
+4. com 0
+5. Combina os elementos de um ou mais arrays, de modo que os valores de um sejam anexados ao final do anterior. Retorna o array resultante.
+6. representar o caractere de quebra de linha específico do sistema operacional onde o script está rodando. 
