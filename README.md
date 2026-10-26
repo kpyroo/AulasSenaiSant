@@ -64,3 +64,18 @@ Aula12 - PHP Estrutura de controle
 - 12.5 - Exercício 9 ✅
 - 12.6 - Exercício 10 ✅
 - 12.7 - Desafio ✅
+
+Aula13 - PHP Arrays
+- 13.1 - Atividades em escrita✅
+- 13.2 - Exercício 1 ✅
+- 13.3 - Exercício 2 ✅
+- 13.4 - Exercício 3 ✅
+- 13.5 - Exercício 4 ✅
+- 13.6 - Exercício 5 ✅
+- 13.7 - Exercício 6 ✅
+- 13.8 - Exercício 7 ✅
+- 13.9 - Exercício 8 ✅
+- 13.10 - Exercício 9 ✅
+- 13.11 - Exercício 10 ✅
+- 13.12 - Desafio 1 ✅
+- 13.13 - Desafio 2 ✅
